@@ -20,7 +20,7 @@ class SalesforceServiceProvider extends ServiceProvider {
 	 * @return void
 	 */
 	public function boot() {
-		$this->package( 'ronster/salesforce' );
+		$this->package( 'claymm/salesforce' );
 	}
 
 	/**
